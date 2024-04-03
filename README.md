@@ -10,7 +10,7 @@ The project consists of the following components:
 - **GitHub Actions Workflow**: Configured to trigger on code pushes to the main branch.
 
 ## Continuous Integration Process Diagram
-![Continuous Integration Process Diagram](/diagram.png)
+![Continuous Integration Process Diagram](diagram.png)
 
 ## Run Project Locally
 
