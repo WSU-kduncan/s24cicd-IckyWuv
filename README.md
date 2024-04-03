@@ -37,7 +37,7 @@ To integrate with DockerHub, follow these steps:
 
 To configure GitHub Secrets you can:
     Set a Secret in your GitHub repo's settings
-    The two secrets you need to set are the *DOCKER_USERNAME* and *DOCKER_PASSWORD*
+    The two secrets you need to set are the *DOCKER_USERNAME* and *DOCKER_PASSWORD* that you'll be creating.
 
 ## Behavior of GitHub Workflow
 
