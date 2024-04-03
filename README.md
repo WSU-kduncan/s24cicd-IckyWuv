@@ -10,7 +10,7 @@ The project consists of the following components:
 - **GitHub Actions Workflow**: Configured to trigger on code pushes to the main branch.
 
 ## Continuous Integration Process Diagram
-![Continuous Integration Process Diagram](s24cicd-IckyWuv/diagram.png)
+![Continuous Integration Process Diagram](s24cicd-IckyWuv/DIAGRAM.png)
 
 ## Run Project Locally
 
