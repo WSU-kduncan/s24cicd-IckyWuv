@@ -15,8 +15,9 @@ The project consists of the following components:
 ## Run Project Locally
 
 To run the project locally, follow these steps:
-### Prerequisites
-    Docker Desktop installed on your machine.
+### Prerequisite:
+Docker Desktop installed on your machine.
+### Steps:
 Clone this repository to your local device.
 Navigate to the root directory of the cloned repo.
 Build the Docker image by running the following command in your terminal:
