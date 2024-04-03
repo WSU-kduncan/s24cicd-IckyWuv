@@ -20,25 +20,23 @@ To run the project locally, follow these steps:
 Clone this repository to your local device.
 Navigate to the root directory of the cloned repo.
 Build the Docker image by running the following command in your terminal:
-  *docker build -t <your-image-name>*
+  `docker build -t exampleImageName`
 
 ## DockerHub Integration
 
 To integrate with DockerHub, follow these steps:
-
     Create a Public/Private Repo in DockerHub
     Authenticate with DockerHub via CLI using a command like:
-      *docker login -u exampleUsername*
+      `docker login -u exampleUsername`
     Push Container Image to DockerHub via a command like:
-      *docker push userName/exampleProject:tagname*
+      `docker push userName/exampleProject:tagname`
       https://hub.docker.com/repository/docker/ickyramer/project4-5/general
 
 ## Also, make sure to use and configure GitHub Secrets
 
 To configure GitHub Secrets you can:
-
-  Set a Secret in your GitHub repo's settings
-  The two secrets you need to set are the DOCKER_USERNAME and DOCKER_PASSWORD
+    Set a Secret in your GitHub repo's settings
+    The two secrets you need to set are the *DOCKER_USERNAME* and *DOCKER_PASSWORD*
 
 ## Behavior of GitHub Workflow
 
