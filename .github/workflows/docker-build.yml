@@ -25,8 +25,8 @@ jobs:
           context: .
           push: true
           tags: |
-            yourusername/yourrepository:${{ github.ref }}
-            yourusername/yourrepository:latest
+            IckyWuv/yourrepository:${{ github.ref }}
+            IckyWuv/yourrepository:latest
         env:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
