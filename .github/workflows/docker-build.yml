@@ -19,7 +19,7 @@ jobs:
       - name: Generate Docker tags
         uses: docker/metadata-action@v3
         with:
-          images: IckyWuv/yourrepository:${{ github.ref }}
+          images: IckyWuv/s24cicd-IckyWuv:${{ github.ref }}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
@@ -27,8 +27,8 @@ jobs:
           context: .
           push: true
           tags: |
-            IckyWuv/yourrepository:${{ github.ref }}
-            IckyWuv/yourrepository:latest
+            IckyWuv/s24cicd-IckyWuv:${{ github.ref }}
+            IckyWuv/s24cicd-IckyWuv:latest
         env:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
