@@ -18,6 +18,8 @@ jobs:
 
       - name: Generate Docker tags
         uses: docker/metadata-action@v3
+        with:
+          images: IckyWuv/yourrepository:${{ github.ref }}
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
