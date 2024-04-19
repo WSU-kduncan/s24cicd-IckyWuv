@@ -1,0 +1,14 @@
+{
+	"id":"restartContainer",
+	"execute-command":"~/s24cicd-IckyWuv/updateContainer.sh",
+	"trigger-rule": {
+		"match": {
+			"type": "value",
+			"value": "container_updated",
+			"parameter": {
+				"type": "payload-hash",
+				"value": "4825fb5bcd69aba2392d1d6f9a4e945ef3736de243bb408821a5a052b75e6fe3"
+			}
+		}
+	}
+}
