@@ -18,8 +18,8 @@ jobs:
 
       - name: Generate Docker tags
         run: |
-          echo "REGISTRY=${REGISTRY:-docker.io}" >> $GITHUB_ENV
-          echo "IMAGE_NAME=${IMAGE_NAME:-latest}" >> $GITHUB_ENV
+          echo "REGISTRY=docker.io" >> $GITHUB_ENV
+          echo "IMAGE_NAME=nginx-custom" >> $GITHUB_ENV
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
