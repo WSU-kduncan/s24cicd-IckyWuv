@@ -18,7 +18,7 @@ jobs:
 
       - name: Generate Docker tags
         run: |
-          echo "REGISTRY=docker.io" >> $GITHUB_ENV
+          echo "REGISTRY=ickyramer" >> $GITHUB_ENV
           echo "IMAGE_NAME=project4-5" >> $GITHUB_ENV
 
       - name: Build and push Docker image
@@ -27,7 +27,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.ref }}
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:1.1.4
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
         env:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
