@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate Docker tags
         run: |
-          echo "REGISTRY=docker.io" >> $GITHUB_ENV
+          echo "REGISTRY=registry-1.docker.io" >> $GITHUB_ENV
           echo "IMAGE_NAME=ickyramer/project4-5" >> $GITHUB_ENV
 
       - name: Build and push Docker image
