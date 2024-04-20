@@ -1,14 +1,14 @@
 {
-	"id":"restartContainer",
-	"execute-command":"~/s24cicd-IckyWuv/updateContainer.sh",
-	"trigger-rule": {
-		"match": {
-			"type": "value",
-			"value": "container_updated",
-			"parameter": {
-				"type": "payload-hash",
-				"value": "4825fb5bcd69aba2392d1d6f9a4e945ef3736de243bb408821a5a052b75e6fe3"
-			}
-		}
-	}
+        "id": "restart_container",
+        "execute-command": "updateContainer.sh",
+        "trigger-rule": {
+                "match": {
+                        "type": "value",
+                        "value": "container_updated",
+                        "parameter": {
+                                "type": "payload-hash",
+                                "value": "3d83666bd22a30e5bd14a5ac2d09c6b8d8ab1f1090d2b2a8624461af889d6d3a"
+                        }
+                }
+        }
 }
