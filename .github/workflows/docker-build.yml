@@ -27,7 +27,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:1.1.4
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:v1.1.5
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
         env:
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
