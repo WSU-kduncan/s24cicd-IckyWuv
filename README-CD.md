@@ -56,4 +56,4 @@ Demonstration of the CI/CD pipeline, including:
 - ![DockerHub](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/Proof%20of%20Flow/dockerhub.png?raw=true)
 - ![GithubActions](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/Proof%20of%20Flow/githubActions.png?raw=true)
 - ![Webhook](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/Proof%20of%20Flow/webhooking.png?raw=true)
-- ![WebsiteChanges](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/Proof%20of%20Flow/website%20changes.png?raw=true)
+- ![WebsiteChanges](Proof of Flow/webhooking.png)
