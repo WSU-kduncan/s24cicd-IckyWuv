@@ -29,8 +29,8 @@
   
 ### Webhook Configuration
 
-- **Webhook Installation:** Installation steps for `adnanh/webhook`.
-- **Webhook Listener Setup:** Setting up the webhook listener with `webhook.json`, defining actions triggered by the webhook.
+- **Webhook Installation:** Installation steps for [`adnanh/webhook`](https://github.com/adnanh/webhook).
+- **Webhook Listener Setup:** Setting up the webhook listener with [`webhook.json`](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/deployment/webhook.json), defining actions triggered by the webhook.
   - **Webhook Script:** [`webhook.json`](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/deployment/webhook.json) details the webhook action, executing [`updateContainer.sh`](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/deployment/updateContainer.sh) upon receiving a POST request.
 
 ### Automated Deployment
