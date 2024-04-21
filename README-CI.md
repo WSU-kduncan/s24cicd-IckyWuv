@@ -31,7 +31,7 @@ To integrate with DockerHub, follow these steps:
       `docker login -u exampleUsername`
     Push Container Image to DockerHub via a command like:
       `docker push userName/exampleProject:tagname`
-      https://hub.docker.com/repository/docker/ickyramer/project4-5/general
+      [Docker Hub Repo](https://hub.docker.com/r/ickyramer/project4-5/tags)
 
 ## Also, make sure to use and configure GitHub Secrets
 
