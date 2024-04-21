@@ -51,6 +51,7 @@
 
 Demonstration of the CI/CD pipeline, including:
 - [Watch the deployment proof of flow video here](https://youtu.be/KYr03Vocfa4)
+
 - ![DockerHub](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/Proof%20of%20Flow/dockerhub.png?raw=true)
 - ![GithubActions](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/Proof%20of%20Flow/githubActions.png?raw=true)
 - ![Webhook](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/Proof%20of%20Flow/webhooking.png?raw=true)
