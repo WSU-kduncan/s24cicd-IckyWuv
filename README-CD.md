@@ -7,7 +7,7 @@
 - Docker & Docker Hub
 - AWS EC2 and Ubuntu instances
 - Lucid Charts
-- `adnanh/webhook` for webhook handling
+- [`adnanh/webhook`](https://github.com/adnanh/webhook) for webhook handling
 
 ## Part 1 - Semantic Versioning
 
@@ -23,7 +23,7 @@
 ### Deployment Setup
 
 - **Docker Installation:** Detailed commands for Docker installation on an AWS EC2 instance.
-- **Container Management Script:** `updateContainer.sh` manages Docker containers to ensure the server runs the latest version of the application.
+- **Container Management Script:** [`updateContainer.sh`](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/deployment/updateContainer.sh) manages Docker containers to ensure the server runs the latest version of the application.
   - **Location:** `/home/ec2-user/updateContainer.sh` on the EC2 instance.
   - **Operation:** The script manages Docker containers by stopping and removing existing containers before starting a new one with the latest image.
   
@@ -31,7 +31,7 @@
 
 - **Webhook Installation:** Installation steps for `adnanh/webhook`.
 - **Webhook Listener Setup:** Setting up the webhook listener with `webhook.json`, defining actions triggered by the webhook.
-  - **Webhook Script:** `webhook.json` details the webhook action, executing `updateContainer.sh` upon receiving a POST request.
+  - **Webhook Script:** [`webhook.json`](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/deployment/webhook.json) details the webhook action, executing [`updateContainer.sh`](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/deployment/updateContainer.sh) upon receiving a POST request.
 
 ### Automated Deployment
 
