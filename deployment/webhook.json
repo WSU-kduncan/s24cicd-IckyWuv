@@ -1,0 +1,13 @@
+[
+        {
+                "id": "dockerhub-webhook",
+                "execute-command": "/home/ec2-user/updateContainer.sh",
+                "command-working-directory": "/home/ec2-user",
+                "pass-arguments-to-command": [
+                        {
+                                "source": "payload",
+                                "name": "push_data.tag"
+                        }
+                ]
+        }
+]
