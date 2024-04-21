@@ -5,7 +5,8 @@
 **Tools Used:**
 - GitHub & GitHub Actions
 - Docker & Docker Hub
-- AWS EC2
+- AWS EC2 and Ubuntu instances
+- Lucid Charts
 - `adnanh/webhook` for webhook handling
 
 ## Part 1 - Semantic Versioning
@@ -14,7 +15,7 @@
 
 - **Tagging Practice:** Use semantic versioning for git tags. Example: `git tag -a v1.0.1 -m "Release v1.0.1"`
 - **GitHub Actions Workflow:** The workflow triggers on tag push events. It uses `docker/metadata-action` to generate Docker tags from the repository metadata, resulting in tags for `latest`, `major`, and `major.minor`.
-
+  - **Using** semantic versioning is especially useful to have backward compatibility and to help users and developers better understand their version control.
 **Docker Hub Repository:** [https://hub.docker.com/r/ickyramer/project4-5/tags](https://hub.docker.com/r/ickyramer/project4-5/tags)
 
 ## Part 2 - Deployment
@@ -43,7 +44,7 @@
 
 ![Project Diagram](https://github.com/WSU-kduncan/s24cicd-IckyWuv/blob/main/Diagrams/Project%205.png?raw=true "Project Overview Diagram")
 
-**Tools Used for Diagramming:** Mention the tool used (e.g., Lucid Charts, Mermaid).
+**Tools Used for Diagramming:** Lucid Charts is what I used to make the aforementioned diagram.
 
 ## Submission Proof
 
